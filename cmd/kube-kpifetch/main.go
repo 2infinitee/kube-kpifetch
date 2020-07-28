@@ -2,11 +2,10 @@ package main
 
 import (
 	"context"
-	"comcast/kube-kpifetch/pkg/KPIMetrics"
-	kubeClient "comcast/kube-kpifetch/pkg/kubeClient"
-	"comcast/kube-kpifetch/pkg/pushgateway"
+	"github.com/2infinitee/kube-kpifetch/pkg/KPIMetrics"
+	kubeClient "github.com/2infinitee/kube-kpifetch/pkg/kubeClient"
+	"github.com/2infinitee/kube-kpifetch/pkg/pushgateway"
 	"os"
-	play "comcast/kube-kpifetch/pkg/test"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 

@@ -1,4 +1,4 @@
-module comcast/k8s-metrics
+module comcast/kube-kpifetch
 
 go 1.14
 
